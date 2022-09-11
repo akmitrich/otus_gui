@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 gtk = {version = "*", package = "gtk4"}
 glib = "*"
+reqwest = {version = "*", features = ["blocking", "json"]}
+thiserror = "*"
